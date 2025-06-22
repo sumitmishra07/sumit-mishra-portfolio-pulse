@@ -36,8 +36,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <button 
             onClick={scrollToTop}
-            className="text-2xl font-black tracking-tight text-gray-100 hover:text-white transition-colors duration-300 cursor-pointer"
-            style={{ fontFamily: 'Orbitron, Space Grotesk, system-ui, sans-serif' }}
+            className="text-gray-100 hover:text-white font-medium transition-colors duration-300 cursor-pointer"
+            style={{ fontFamily: 'Inter, system-ui, sans-serif' }}
           >
             Sumit Mishra
           </button>
