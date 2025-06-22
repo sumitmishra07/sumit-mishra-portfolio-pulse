@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/portfolio/Header';
 import Hero from '../components/portfolio/Hero';
 import About from '../components/portfolio/About';
+import Education from '../components/portfolio/Education';
 import Skills from '../components/portfolio/Skills';
 import Projects from '../components/portfolio/Projects';
 import YouTubeSection from '../components/portfolio/YouTube';
@@ -16,6 +17,7 @@ const Index = () => {
       <Header />
       <Hero />
       <About />
+      <Education />
       <Skills />
       <Projects />
       <YouTubeSection />

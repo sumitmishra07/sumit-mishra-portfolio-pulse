@@ -44,7 +44,7 @@ const Header = () => {
           
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-8">
-            {['About', 'Skills', 'Projects', 'YouTube', 'Contact'].map((item) => (
+            {['About', 'Education', 'Skills', 'Projects', 'YouTube', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
@@ -69,7 +69,7 @@ const Header = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 space-y-4 bg-gradient-to-r from-slate-900/95 via-blue-950/95 to-indigo-950/95 backdrop-blur-lg rounded-lg border border-blue-800/30">
-            {['About', 'Skills', 'Projects', 'YouTube', 'Contact'].map((item) => (
+            {['About', 'Education', 'Skills', 'Projects', 'YouTube', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
