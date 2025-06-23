@@ -45,17 +45,32 @@ const Education = () => {
     {
       name: "Palo Alto Networks Cybersecurity Academy",
       date: "Aug 11, 2024",
-      gradient: "from-blue-700 to-indigo-800"
+      gradient: "from-blue-700 to-indigo-800",
+      link: "https://drive.google.com/file/d/1ZbV5T8ykg5ojr7F63zOSTeuECAhBvhxc/view?usp=sharing"
     },
     {
       name: "LinkedIn Full Stack Developer Certificate",
       date: "Dec 11, 2023",
-      gradient: "from-slate-700 to-blue-800"
+      gradient: "from-slate-700 to-blue-800",
+      link: "https://drive.google.com/file/d/1mgTsFhCU4WvrpAi3-6gc5ik0Hoifq4Dc/view?usp=sharing"
     },
     {
       name: "LinkedIn Canva Essential Training",
       date: "Dec 13, 2023",
-      gradient: "from-indigo-700 to-blue-800"
+      gradient: "from-indigo-700 to-blue-800",
+      link: "https://drive.google.com/file/d/1QFzBEaG78UroX3XF1f5bwMX1965w5mo-/view?usp=sharing"
+    },
+    {
+      name: "Cisco Python Essentials 1",
+      date: "Completed",
+      gradient: "from-green-700 to-blue-800",
+      link: "https://drive.google.com/file/d/1DIYcEFCVQ85PA7ZI2J2W7v_dMYAcY-wG/view?usp=sharing"
+    },
+    {
+      name: "Cisco Python Essentials 2",
+      date: "Completed",
+      gradient: "from-purple-700 to-blue-800",
+      link: "https://drive.google.com/file/d/1WROVVR9arOgWDuClX8_TkAjWLM6W1M81/view?usp=sharing"
     }
   ];
 
@@ -133,9 +148,15 @@ const Education = () => {
               📜 Certifications
             </h3>
             
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
               {certifications.map((cert, index) => (
-                <div key={index} className="group bg-white/10 backdrop-blur-lg rounded-xl shadow-2xl p-8 hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-700 transform hover:-translate-y-6 hover:scale-[1.02] border border-white/20 hover:border-blue-300/50 cursor-pointer">
+                <a 
+                  key={index} 
+                  href={cert.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group bg-white/10 backdrop-blur-lg rounded-xl shadow-2xl p-8 hover:shadow-2xl hover:shadow-blue-500/25 transition-all duration-700 transform hover:-translate-y-6 hover:scale-[1.02] border border-white/20 hover:border-blue-300/50 cursor-pointer block"
+                >
                   <div className={`w-14 h-14 bg-gradient-to-r ${cert.gradient} rounded-lg flex items-center justify-center mb-6 transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 shadow-lg group-hover:shadow-2xl`}>
                     <Award className="text-white" size={24} />
                   </div>
@@ -149,7 +170,7 @@ const Education = () => {
                        style={{ fontFamily: 'Space Grotesk, system-ui, sans-serif' }}>
                     {cert.date}
                   </div>
-                </div>
+                </a>
               ))}
             </div>
           </div>
