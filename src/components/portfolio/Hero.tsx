@@ -30,11 +30,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 text-center relative z-10">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 sm:mb-8 animate-fade-in tracking-tight leading-tight" 
-              style={{ fontFamily: 'Moderne Sans, sans-serif', letterSpacing: '0.1em' }}>
+              style={{ fontFamily: 'Cinzel, serif', letterSpacing: '0.1em' }}>
             SUMIT MISHRA
           </h1>
           
-          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl text-blue-200 mb-6 sm:mb-8 font-medium animate-fade-in delay-200 px-2"
+          <h2 className="text-sm sm:text-base md:text-lg lg:text-xl text-blue-200 mb-6 sm:mb-8 font-medium animate-fade-in delay-200 px-2 whitespace-nowrap overflow-hidden text-ellipsis"
               style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
             Front-End Developer | Digital Marketer | Tech Creator | GATE CS 2025 Qualified
           </h2>

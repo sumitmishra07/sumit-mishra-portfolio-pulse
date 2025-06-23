@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { GraduationCap, Award, BookOpen } from 'lucide-react';
 
@@ -62,13 +61,13 @@ const Education = () => {
     },
     {
       name: "Cisco Python Essentials 1",
-      date: "Completed",
+      date: "22 June 2025",
       gradient: "from-green-700 to-blue-800",
       link: "https://drive.google.com/file/d/1DIYcEFCVQ85PA7ZI2J2W7v_dMYAcY-wG/view?usp=sharing"
     },
     {
       name: "Cisco Python Essentials 2",
-      date: "Completed",
+      date: "22 June 2025",
       gradient: "from-purple-700 to-blue-800",
       link: "https://drive.google.com/file/d/1WROVVR9arOgWDuClX8_TkAjWLM6W1M81/view?usp=sharing"
     }
