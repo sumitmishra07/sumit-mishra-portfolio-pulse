@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 const Hero = () => {
@@ -30,7 +31,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 text-center relative z-10">
         <div className="max-w-5xl mx-auto">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-6 sm:mb-8 animate-fade-in tracking-tight leading-tight" 
-              style={{ fontFamily: 'Cinzel, serif', letterSpacing: '0.1em' }}>
+              style={{ fontFamily: 'Ubuntu, sans-serif', letterSpacing: '0.1em' }}>
             SUMIT MISHRA
           </h1>
           
@@ -39,7 +40,7 @@ const Hero = () => {
             Front-End Developer | Digital Marketer | Tech Creator | GATE CS 2025 Qualified
           </h2>
           
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 sm:mb-16 max-w-4xl mx-auto animate-fade-in delay-300 leading-relaxed px-2"
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 sm:mb-16 max-w-4xl mx-auto animate-fade-in delay-300 leading-relaxed px-2 whitespace-nowrap overflow-hidden text-ellipsis lg:whitespace-normal"
              style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
             "Building user-first platforms and scaling them with content, code, and creativity."
           </p>
