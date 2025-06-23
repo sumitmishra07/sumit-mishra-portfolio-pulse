@@ -40,7 +40,7 @@ const Hero = () => {
             Front-End Developer | Digital Marketer | Tech Creator | GATE CS 2025 Qualified
           </h2>
           
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-12 sm:mb-16 max-w-4xl mx-auto animate-fade-in delay-300 leading-relaxed px-2 whitespace-nowrap overflow-hidden text-ellipsis lg:whitespace-normal"
+          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-300 mb-12 sm:mb-16 max-w-6xl mx-auto animate-fade-in delay-300 leading-relaxed px-2"
              style={{ fontFamily: 'Inter, system-ui, sans-serif' }}>
             "Building user-first platforms and scaling them with content, code, and creativity."
           </p>
