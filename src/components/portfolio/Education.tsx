@@ -70,6 +70,12 @@ const Education = () => {
       date: "22 June 2025",
       gradient: "from-purple-700 to-blue-800",
       link: "https://drive.google.com/file/d/1WROVVR9arOgWDuClX8_TkAjWLM6W1M81/view?usp=sharing"
+    },
+    {
+      name: "Cisco C++ Essentials 1",
+      date: "23 June 2025",
+      gradient: "from-red-700 to-orange-800",
+      link: "https://drive.google.com/file/d/1YRcKPdXVejIUlnHyxLDPpWnEo6kpnciO/view?usp=sharing"
     }
   ];
 
@@ -147,7 +153,7 @@ const Education = () => {
               📜 Certifications
             </h3>
             
-            <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-8">
+            <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-8">
               {certifications.map((cert, index) => (
                 <a 
                   key={index} 

@@ -22,6 +22,11 @@ const Skills = () => {
       title: "Business & Management",
       skills: ["PG Onboarding", "Student Handling", "B2B Outreach", "Community Building"],
       color: "from-blue-800 to-slate-800"
+    },
+    {
+      title: "Information Technology",
+      skills: ["C", "C++", "Python", "Operating System", "Computer Networks", "Database Management System", "Object Oriented Programming"],
+      color: "from-green-700 to-teal-800"
     }
   ];
 
@@ -34,7 +39,7 @@ const Skills = () => {
             Skills & Tech Stack
           </h2>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
             {skillCategories.map((category, index) => (
               <div key={index} className="group bg-white rounded-lg shadow-xl p-8 hover:shadow-2xl hover:shadow-blue-500/20 transition-all duration-700 transform hover:-translate-y-4 hover:scale-105 border border-gray-100 hover:border-blue-300/50 cursor-pointer">
                 <div className={`w-14 h-14 bg-gradient-to-r ${category.color} rounded-lg flex items-center justify-center mb-6 transform transition-all duration-500 group-hover:scale-110 group-hover:rotate-12 shadow-lg group-hover:shadow-2xl`}>
