@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { GraduationCap, Award, BookOpen } from 'lucide-react';
 
@@ -62,7 +63,7 @@ const Education = () => {
     {
       name: "Cisco Python Essentials 1",
       date: "22 June 2025",
-      gradient: "from-green-700 to-blue-800",
+      gradient: "from-green-700 to-teal-800",
       link: "https://drive.google.com/file/d/1DIYcEFCVQ85PA7ZI2J2W7v_dMYAcY-wG/view?usp=sharing"
     },
     {
@@ -166,7 +167,7 @@ const Education = () => {
                     <Award className="text-white" size={24} />
                   </div>
                   
-                  <h4 className="text-xl font-black mb-4 text-white group-hover:scale-105 transition-transform duration-300 tracking-tight"
+                  <h4 className="text-lg font-black mb-4 text-white group-hover:scale-105 transition-transform duration-300 tracking-tight leading-tight"
                       style={{ fontFamily: 'Space Grotesk, system-ui, sans-serif', letterSpacing: '-0.01em' }}>
                     {cert.name}
                   </h4>

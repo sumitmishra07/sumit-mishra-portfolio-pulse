@@ -26,7 +26,7 @@ const Skills = () => {
     {
       title: "Information Technology",
       skills: ["C", "C++", "Python", "Operating System", "Computer Networks", "Database Management System", "Object Oriented Programming"],
-      color: "from-green-700 to-teal-800"
+      color: "from-slate-700 to-blue-800"
     }
   ];
 
