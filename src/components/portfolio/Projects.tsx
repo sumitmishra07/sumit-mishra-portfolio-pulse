@@ -26,7 +26,7 @@ const Projects = () => {
         "Handled student inquiries, bookings, and grievance resolution",
         "Designed and executed content marketing for visibility and downloads"
       ],
-      image: "https://i.postimg.cc/QMDGqSFF/Pi7-image.jpg",
+      image: "https://i.postimg.cc/K8dWVbFz/p.png",
       gradient: "from-slate-700 to-blue-800"
     },
     {
@@ -87,7 +87,7 @@ const Projects = () => {
                 <div className="p-8">
                   <h3 className="text-3xl font-black mb-4 text-white group-hover:scale-105 transition-transform duration-300 tracking-tight"
                       style={{ fontFamily: 'Space Grotesk, system-ui, sans-serif', letterSpacing: '-0.01em' }}>
-                    📌 {project.title}
+                    {project.title}
                   </h3>
                   
                   <p className="text-gray-300 mb-6 leading-relaxed group-hover:text-gray-200 transition-colors duration-300 text-lg">
